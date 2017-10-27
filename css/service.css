@@ -1,0 +1,81 @@
+@charset "utf-8";
+.top {
+	width: 100%;
+	height: 400px;
+	background: url(../img/1482204311.png) top center;
+	animation-name: fadeInUp;
+	animation-delay: 0.2s;
+}
+body{
+	font:"Segoe UI","Lucida Grande",Helvetica,Arial,"Microsoft YaHei",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",Roboto,Arial,sans-serif;
+}
+.tab {
+	width: 100%;
+	animation-name: fadeInUp;
+	animation-delay: 0.4s;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.tab-title,
+.tab-content {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.tab-title {
+	width: 100%;
+	text-align: center;
+	font-size: 15px;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #f0f2f5;
+}
+
+.tab-title li {
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 400;
+	padding: 0 14px;
+	color: #90939b;
+	cursor: pointer;
+}
+
+/*.tab-title li:first-child.active {
+	color: #90939b;
+}
+
+.tab-title li:first-child:hover {
+	color: #393939;
+}*/
+
+.tab-title li:hover,
+.tab-title li.active {
+	color: #393939;
+}
+
+.tab-content li {
+	margin: 0 auto;
+	width: 1250px;
+	padding: 30px;
+	color: #000000;
+	display: none;
+}
+
+.tab-content .conen {
+	margin: 20px 0;
+	color: rgb(127, 127, 127);
+	font-weight: 400;
+	line-height: 26px;
+	font-size: 14px;
+	animation-name: fadeInLeft;
+	animation-delay: 0.4s;
+}
+
+.tab-content li:first-child {
+	display: block;
+}
